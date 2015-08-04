@@ -1,7 +1,7 @@
 ScalaKinesis2ElasticSearch
 ==========================
 
-Application for copying Amazon Kinesis data to ElasticSearch.
+Scala Application for copying Amazon Kinesis data to ElasticSearch.
 
 ## Usage
 

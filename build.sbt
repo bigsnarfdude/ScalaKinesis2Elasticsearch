@@ -1,14 +1,14 @@
-name := "example-sink"
+name := "elasticsearch-sink"
 
-version := "0.2"
+version := "0.1"
 
-scalaVersion := "2.11.4"
+scalaVersion := "2.11.5"
 
 // dependencies
 libraryDependencies ++= Seq(
-    "com.amazonaws"                   %  "amazon-kinesis-client"      % "1.2.1",
-    "com.amazonaws"                   %  "aws-java-sdk"               % "1.9.34",
-    "com.amazonaws"                   %  "amazon-kinesis-connectors"   % "1.2.0"
+    "com.amazonaws"  %  "amazon-kinesis-client"       % "1.2.1",
+    "com.amazonaws"  %  "aws-java-sdk"                % "1.9.34",
+    "com.amazonaws"  %  "amazon-kinesis-connectors"   % "1.2.0"
 )
 
 // repos
@@ -18,7 +18,7 @@ resolvers ++= Seq(
     "Spray repo" at "http://repo.spray.io/",
     "Akka repo" at "http://repo.akka.io/releases/",
     "thenewmotion" at "http://nexus.thenewmotion.com/content/repositories/releases-public",
-    "central" at "http://repo.maven.apache.org/maven2/",
+    "central" at "http://repo.maven.apache.orsg/maven2/",
     "clojars.org" at "http://clojars.org/repo",
     "ScalaToolsMaven2Repository" at "http://scala-tools.org/repo-releases",
     Resolver.url("sbt-plugin-snapshots", new URL("http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/"))(Resolver.ivyStylePatterns),

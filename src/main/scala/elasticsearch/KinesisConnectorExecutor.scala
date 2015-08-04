@@ -8,11 +8,9 @@ import java.util.Properties
 import org.apache.commons.logging.Log
 import org.apache.commons.logging.LogFactory
 
-import CloudFormationUtils
 import DynamoDBUtils
-import EC2Utils
 import KinesisUtils
-import S3Utils
+
 
 import com.amazonaws.auth.AWSCredentialsProvider
 import com.amazonaws.auth.DefaultAWSCredentialsProviderChain

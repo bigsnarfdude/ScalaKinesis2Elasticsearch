@@ -2,8 +2,6 @@ import java.io.IOException
 import org.apache.commons.logging.Log
 import org.apache.commons.logging.LogFactory
 
-import KinesisMessageModel
-
 import com.amazonaws.services.kinesis.connectors.elasticsearch.ElasticsearchObject
 import com.amazonaws.services.kinesis.connectors.interfaces.ITransformer
 import com.amazonaws.services.kinesis.model.Record
